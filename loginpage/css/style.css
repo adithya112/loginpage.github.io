@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../london.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+ .container{
+     color: white;
+     position: absolute;
+     top: 17%;
+    left: 17%;
+ }   
+
+ .container h1{
+     display: inline-block;
+    font-size: 45px;
+    border-bottom: 5px solid #df14df;
+    margin-bottom: 10px;
+    padding: 13px 0;
+}
+.box{
+    width: 130%;
+    margin: 20px 0px;
+    border-bottom: 2px solid #df14df;
+}
+.box i{
+    width: 30px;
+    padding: 0px 5px;
+    text-align: center;
+}
+.box input{
+    width: 75%;
+    padding: 7px 0px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 21px 0;
+    padding: 8px 18px;
+    border: 2px solid #df14df;
+    border-radius: 15px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    transition: .5s ease-in;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+    margin: 21px 0;
+    padding: 8px 18px;
+    border: 2px solid #df14df;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+INPUT::-webkit-input-placeholder{
+    color: white;
+}

@@ -1,0 +1,48 @@
+body{
+    background: url(../london.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    top: 25%;
+    left: 12%;
+}
+.container h1 {
+    display: inline-block;
+    font-size: 55px;
+    border-bottom: 5px solid #df14df;
+    margin-bottom: 10px;
+    padding: 13px 0;
+}
+.box input {
+    width: 75%;
+    padding: 10px 0px;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+}
+.btn {
+    cursor: pointer;
+    outline: none;
+    margin: 21px 0;
+    padding: 8px 18px;
+    border: 2px solid #df14df;
+    border-radius: 15px;
+    font-size: 40px;
+    background: none;
+    color: white;
+    transition: .5s ease-in;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+    margin: 21px 0;
+    padding: 8px 18px;
+    border: 2px solid #df14df;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+}
